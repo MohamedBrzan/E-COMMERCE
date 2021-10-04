@@ -1,0 +1,73 @@
+.new-arrivals {
+  background-color: $headGrey;
+  .container {
+    i#prev,
+    i#next,
+    i#nextB,
+    i#prevB,
+    i#prv,
+    i#nxt {
+      @media (max-width: 991px) {
+        display: none;
+      }
+    }
+    .row {
+      flex-wrap: nowrap;
+      overflow-x: hidden;
+      @media (max-width: 991px) {
+        flex-wrap: wrap;
+      }
+
+      a {
+        color: white;
+        @media (min-width: 400px) {
+          left: 25px;
+        }
+      }
+    }
+  }
+  .my-carousel {
+    .row {
+      .product {
+        .card-footer {
+          position: relative;
+          &::before {
+            content: "30% off ";
+            position: absolute;
+            width: 75px;
+            height: 25px;
+            text-align: center;
+            border: 1px solid #000;
+            right: 10px;
+          }
+        }
+      }
+    }
+  }
+  .declare,
+  .declare.two {
+    height: 177px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    z-index: 1;
+    @media (max-width: 768px) {
+      height: 230px;
+    }
+    .row {
+      z-index: 2;
+      .view {
+        h2 {
+          span {
+            display: block;
+            @media (max-width: 768px) {
+              display: inline;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

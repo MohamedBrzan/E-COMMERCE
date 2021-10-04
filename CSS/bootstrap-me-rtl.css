@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+.left {
+  transform: rotate(180deg);
+  margin-left: -25px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+.right {
+  transform: rotate(-180deg);
+  margin-right: -25px;
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+}
+
+.start-5 {
+  right: 5%;
+}

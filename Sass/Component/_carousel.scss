@@ -1,0 +1,11 @@
+.home-carousel {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.nav-carousel {
+  .carousel-inner {
+    height: calc(100vh - 169px);
+  }
+}

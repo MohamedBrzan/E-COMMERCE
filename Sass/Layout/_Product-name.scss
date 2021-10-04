@@ -1,0 +1,18 @@
+.related {
+  .container {
+    .row {
+      flex-wrap: nowrap;
+      overflow-x: hidden;
+      @media (max-width: 991px) {
+        flex-wrap: wrap;
+      }
+    }
+
+    i#myNext,
+    i#myPrev {
+      @media (max-width: 991px) {
+        display: none;
+      }
+    }
+  }
+}

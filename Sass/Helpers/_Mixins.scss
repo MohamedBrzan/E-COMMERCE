@@ -1,0 +1,15 @@
+@mixin TranslateX($x) {
+  transform: translateX($x);
+  -webkit-transform: translateX($x);
+  -moz-transform: translateX($x);
+  -ms-transform: translateX($x);
+  -o-transform: translateX($x);
+}
+
+@mixin Transition($K) {
+  transition: all ($K) linear;
+  -webkit-transition: all ($K) linear;
+  -moz-transition: all ($K) linear;
+  -ms-transition: all ($K) linear;
+  -o-transition: all ($K) linear;
+}

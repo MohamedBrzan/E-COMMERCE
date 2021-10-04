@@ -1,0 +1,217 @@
+.home nav .container .row:first-child {
+  padding: 15px 0;
+  background-color: #f0f0f0;
+}
+.home nav .container .row:first-child .col .form-control {
+  position: relative;
+}
+.home nav .container .row:first-child .col .form-control input {
+  padding: 5px 10px;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+.home nav .container .row:first-child .col-6 .form-control i {
+  right: 95%;
+}
+.home nav .container .row:first-child span {
+  cursor: pointer;
+}
+
+.home nav .container .col-10 ul li .ul {
+  width: 156px;
+  height: 200px;
+  background-color: #f8f9fa;
+  z-index: 2;
+  right: 300px;
+}
+
+.home nav .container .col-10 ul li .ul .li {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+}
+
+.home nav .container .col-10 ul li .ul .li:hover {
+  margin-right: 20px;
+}
+
+.home .row:last-child {
+  padding: 0;
+}
+.home .row:last-child .col nav li a {
+  color: #000;
+  text-decoration: none;
+}
+.home .row:last-child .col .brands:focus .all {
+  display: block;
+}
+
+.new-arrivals .my-carousel .container .row .largeCol .card-footer::before {
+  content: " خصم 20%";
+  right: 72%;
+  width: 80px;
+  height: 30px;
+}
+
+/************************************************
+***************** Arrivals Carousel *************
+*************************************************/
+
+.new-arrivals .my-carousel .container .row .mycol:first-child.scroll-left {
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
+}
+.new-arrivals .my-carousel .container .row .mycol:nth-child(2).scroll-left {
+  transform: translateX(200%);
+  -webkit-transform: translateX(200%);
+  -moz-transform: translateX(200%);
+  -ms-transform: translateX(200%);
+  -o-transform: translateX(200%);
+}
+.new-arrivals .my-carousel .container .row .mycol:nth-child(3).scroll-left {
+  transform: translateX(300%);
+  -webkit-transform: translateX(300%);
+  -moz-transform: translateX(300%);
+  -ms-transform: translateX(300%);
+  -o-transform: translateX(300%);
+}
+.new-arrivals .my-carousel .container .row .mycol:nth-child(4).scroll-left {
+  transform: translateX(400%);
+  -webkit-transform: translateX(400%);
+  -moz-transform: translateX(400%);
+  -ms-transform: translateX(400%);
+  -o-transform: translateX(400%);
+}
+.new-arrivals .my-carousel .container .row .mycol:nth-child(5).scroll-left {
+  transform: translateX(400%);
+  -webkit-transform: translateX(400%);
+  -moz-transform: translateX(400%);
+  -ms-transform: translateX(400%);
+  -o-transform: translateX(400%);
+}
+.new-arrivals .my-carousel .container .row .mycol:nth-child(6).scroll-left {
+  transform: translateX(400%);
+  -webkit-transform: translateX(400%);
+  -moz-transform: translateX(400%);
+  -ms-transform: translateX(400%);
+  -o-transform: translateX(400%);
+}
+.new-arrivals .my-carousel .container .row .mycol:nth-child(7).scroll-left {
+  transform: translateX(400%);
+  -webkit-transform: translateX(400%);
+  -moz-transform: translateX(400%);
+  -ms-transform: translateX(400%);
+  -o-transform: translateX(400%);
+}
+.new-arrivals .my-carousel .container .row .mycol:last-child.scroll-left {
+  transform: translateX(400%);
+  -webkit-transform: translateX(400%);
+  -moz-transform: translateX(400%);
+  -ms-transform: translateX(400%);
+  -o-transform: translateX(400%);
+}
+.new-arrivals .my-carousel .container .row .mycol:first-child.scroll-right {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+.new-arrivals .my-carousel .container .row .mycol:nth-child(2).scroll-right {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+.new-arrivals .my-carousel .container .row .mycol:nth-child(3).scroll-right {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+.new-arrivals .my-carousel .container .row .mycol:nth-child(4).scroll-right {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+.new-arrivals .my-carousel .container .row .mycol:nth-child(5).scroll-right {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+.new-arrivals .my-carousel .container .row .mycol:nth-child(6).scroll-right {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+.new-arrivals .my-carousel .container .row .mycol:nth-child(7).scroll-right {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+.new-arrivals .my-carousel .container .row .mycol:last-child.scroll-right {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+
+.ambassadors-carousel .container .row .mycol:first-child.scroll-left {
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
+}
+.ambassadors-carousel .container .row .mycol:nth-child(2).scroll-left {
+  transform: translateX(200%);
+  -webkit-transform: translateX(200%);
+  -moz-transform: translateX(200%);
+  -ms-transform: translateX(200%);
+  -o-transform: translateX(200%);
+}
+.ambassadors-carousel .container .row .mycol:nth-child(3).scroll-left {
+  transform: translateX(300%);
+  -webkit-transform: translateX(300%);
+  -moz-transform: translateX(300%);
+  -ms-transform: translateX(300%);
+  -o-transform: translateX(300%);
+}
+.ambassadors-carousel .container .row .mycol:nth-child(4).scroll-left,
+.ambassadors-carousel .container .row .mycol:nth-child(5).scroll-left,
+.ambassadors-carousel .container .row .mycol:nth-child(6).scroll-left,
+.ambassadors-carousel .container .row .mycol:nth-child(7).scroll-left,
+.ambassadors-carousel .container .row .mycol:last-child.scroll-left {
+  transform: translateX(400%);
+  -webkit-transform: translateX(400%);
+  -moz-transform: translateX(400%);
+  -ms-transform: translateX(400%);
+  -o-transform: translateX(400%);
+}
+
+.ambassadors-carousel .container .row .mycol.scroll-right {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}

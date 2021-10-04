@@ -1,0 +1,122 @@
+@import "../Helpers/_Variables.scss";
+@import "../Helpers/_Mixins.scss";
+
+@import "../Layout/_Header.scss";
+@import "../Layout/_Grid.scss";
+@import "../Component/_carousel.scss";
+@import "../Layout/_Arrivals.scss";
+@import "../Layout/_Ambassadors.scss";
+@import "../Layout/_Skin-Care.scss";
+@import "../Layout/_MakeUp.scss";
+@import "../Layout/_Hair-Care.scss";
+@import "../Layout/_bath.scss";
+@import "../Layout/_Beauty.scss";
+@import "../Layout/_Product-name.scss";
+@import "../Layout/_Registration.scss";
+@import "../Layout/_Checkout.scss";
+@import "../Layout/_Sell-With-Us.scss";
+@import "../Layout/_Footer.scss";
+
+.product {
+  min-width: 24%;
+  border-radius: 20px;
+  position: relative;
+  left: 0;
+  @include Transition(1s);
+  margin-bottom: 15px;
+}
+
+.card {
+  .card-photo {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.shadow {
+  box-shadow: 0 0 0 0.25rem rgba(37, 38, 39, 0.25);
+}
+
+.modal-backdrop {
+  opacity: 0.5;
+  user-select: none;
+}
+
+.buy {
+  position: fixed;
+  width: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  @media (max-width: 600px) {
+    width: 350px;
+  }
+  input {
+    width: 100%;
+    outline: none;
+  }
+  i {
+    width: 34px;
+    height: 34px;
+    top: -15px;
+    right: -15px;
+    display: grid;
+    place-items: center;
+  }
+  z-index: 9999;
+
+  a {
+    @media (max-width: 600px) {
+      width: 100% !important;
+    }
+  }
+}
+
+.tabs .tab:hover:not(.fixed) {
+  background-color: rgb(220, 220, 220);
+}
+
+.tabs .tab.fixed {
+  background-color: #000;
+  color: #fff;
+}
+
+.panel {
+  display: none;
+}
+
+.panel.fixed {
+  display: block !important;
+}
+
+.tabCheck {
+  color: rgb(201, 201, 201);
+}
+
+.tabCheck.fixed {
+  color: #000;
+}
+
+.panelCheck {
+  display: none;
+}
+
+.panelCheck.fixed {
+  display: block !important;
+}
+
+.hide {
+  @include Transition(1s);
+}
+
+.declare {
+  background-image: url(../../img/declare/declare.jpg);
+}
+.declare.two {
+  background-image: url(../../img/view-width/wide-6.jpg);
+}

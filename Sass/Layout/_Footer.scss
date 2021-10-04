@@ -1,0 +1,41 @@
+footer {
+  background-color: $footerGrey;
+  .container {
+    .row {
+      .miniCol {
+        .links {
+          i {
+            @include Transition(0.5s);
+          }
+          i:first-child {
+            &:hover {
+              color: rgb(74, 74, 236);
+            }
+          }
+          i:nth-child(2) {
+            &:hover {
+              color: rgb(236, 82, 82);
+            }
+          }
+          i:last-child {
+            &:hover {
+              color: rgb(143, 12, 12);
+            }
+          }
+        }
+      }
+      .largeCol {
+        .form-control {
+          @media (max-width: 991px) {
+            width: 50%;
+            margin: auto;
+          }
+          input {
+            width: 100%;
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+}
